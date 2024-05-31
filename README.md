@@ -1,18 +1,15 @@
 <!--PLEASE NOTE - I have left lots commented out. 
 Think of this as a template to be filled in later. -->
 
-![Visitor Count](https://visitor-badge.glitch.me/badge?page_id=inclusivetechcoalition.inclusivetechcoalition.com)
-![Profile Visitors](https://img.shields.io/badge/Profile%20Visitors-172B4D?style=for-the-badge&logo=Opsgenie&logoColor=white)
-
 # Welcome to Inclusive Tech Coalition!
 
 Hello and welcome! We're thrilled to have you here. Inclusive Tech Coalition is all about connecting tech enthusiasts and fostering a vibrant community.
 
-![GitHub stars](https://img.shields.io/github/stars/inclusivetechcoalition/inclusivetechcoalition.com?style=social)
-![GitHub forks](https://img.shields.io/github/forks/inclusivetechcoalition/inclusivetechcoalition.com?style=social)
-![GitHub issues](https://img.shields.io/github/issues/inclusivetechcoalition/inclusivetechcoalition.com)
-![GitHub license](https://img.shields.io/github/license/inclusivetechcoalition/inclusivetechcoalition.com)
-![Visitors](https://visitor-badge.glitch.me/badge?page_id=inclusivetechcoalition.inclusivetechcoalition.com)
+![GitHub stars](https://img.shields.io/github/stars/inclusivetechcoalition/main-website?style=social)
+![GitHub forks](https://img.shields.io/github/forks/inclusivetechcoalition/main-website?style=social)
+![GitHub issues](https://img.shields.io/github/issues/inclusivetechcoalition/main-website)
+![Netlify](https://img.shields.io/netlify/8d9a1b1e-d6ea-4b38-b675-a3ee8a32f11b)
+
 
 <!-- ## Table of Contents 📚
 
