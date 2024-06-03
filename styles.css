@@ -21,6 +21,13 @@ section {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+}
+
 .welcome img {
     margin: 0.5rem;
 }
@@ -42,11 +49,31 @@ a:hover {
     text-decoration: underline;
 }
 
-main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 2rem;
+nav {
+    background: #333;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-links li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
 }
 
 .network {
@@ -97,14 +124,22 @@ main {
     color: #0066cc;
 }
 
-.network .icon.github:hover {
-    color: #4078c0;
+.network .icon.facebook:hover {
+    color: #3b5998;
 }
 
-.network .icon.discord:hover {
-    color: #7289da;
+.network .icon.instagram:hover {
+    color: #e4405f;
 }
 
-.network .icon.slack:hover {
-    color: #4a154b;
+.network .icon.linkedin:hover {
+    color: #0077b5;
+}
+
+.network .icon.twitter:hover {
+    color: #1da1f2;
+}
+
+.network .icon.email:hover {
+    color: #dd4b39;
 }
