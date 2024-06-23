@@ -1,24 +1,21 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Questrial", sans-serif;
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: white;
+    color: #3c3c42;
+    display: flex;
+    flex-direction: column;
 }
 
 header {
-    background: #333;
-    color: #fff;
-    padding: 1rem 0;
     text-align: center;
 }
 
 section {
-    padding: 1rem 2rem;
-    margin: 1rem 2rem;
-    background: #fff;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 1rem 4rem;
+    display: flex;
 }
 
 main {
@@ -28,52 +25,192 @@ main {
     padding: 2rem;
 }
 
-.welcome img {
-    margin: 0.5rem;
-}
-
 h1 {
-    color: #f4f4f4;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    font-size: 4em;
 }
 
 h2 {
-    color: #333
+    font-size: 3em;
+}
+h2, h3 {
+    color: #3c3c42;
 }
 
 a {
-    color: #0066cc;
+    color: #6b15db;
     text-decoration: none;
+}
+a.contact-link{
+    color: white;
+}
+.home-link {
+    font-weight: bolder;
+    font-size: 1em;
+}
+.secondary-links a{
+    padding-left: 1em;
 }
 
 a:hover {
-    text-decoration: underline;
+    color: #6b15db;
+    text-decoration: none;
 }
 
 nav {
-    background: #333;
-    padding: 1rem 0;
+    padding: 1rem;
     text-align: center;
 }
 
-.nav-links {
-    list-style: none;
-    padding: 0;
-    margin: 0;
+.gradient-button {
+    border-radius: 2em;
+    border-color: #6b15db;
+    background-color: #6b15db;
+    color: white;
+    padding: 0.75em;
 }
-
-.nav-links li {
-    display: inline;
-    margin: 0 1rem;
+.gradient-button a {
+    color: white;
+    padding-left: 0;
 }
-
-.nav-links a {
-    color: #fff;
-    text-decoration: none;
-    font-weight: bold;
+.border-button {
+    border-radius: 2em;
+    border-color: #6b15db;
+    border-width: 1px;
+    background-color: white;
+    padding: 0.75em;
 }
 
 .nav-links a:hover {
     text-decoration: underline;
+}
+.main-section {
+    margin: 0;
+    padding: 5em 3em 1em;
+    min-height: 20em;
+    background: linear-gradient(45deg, rgba(238, 80, 101, 0.5), rgb(0, 0, 255, 0.5));
+    border-bottom-right-radius: 3em;
+    border-bottom-left-radius: 3em;
+    border-width: 0.1em;
+    color: white;
+    display: flex;
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+}
+#about-us{
+    justify-content: center;
+}
+#our-mission {
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 9em;
+}
+.mission-text{
+    max-width: 500px;
+    margin-bottom: 3em;
+}
+.svg-image {
+    width: 100%;
+    height: 100%;
+}
+#texas {
+    max-width: 300px;
+}
+.divider {
+    display: flex;
+    margin-bottom: 1em;
+    padding-left: 0.5em;
+}
+.pillar-icon-container {
+    width: 55%;
+}
+.glassomorph {
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    padding: 2em;
+}
+.about-text{
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    padding-left: 5%;
+}
+.card-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+}
+.card {
+    background: linear-gradient(45deg, rgba(238, 80, 101, 0.5), rgb(0, 0, 255, 0.5));
+    border-radius: 2em;
+    background-clip: padding-box;
+    padding: 1em;
+    width: 300px;
+    box-shadow: 12px 12px 20px 1px rgba(0, 0, 255, .2);
+}
+.card-inner{
+    background: white;
+    border-radius: 1.3em;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    padding: 1em;
+    align-items: center;
+    justify-content: space-between;
+}
+.card-desc{
+    font-size: 0.8em;
+    text-align: center;
+    line-height: 1.2;
+}
+.spacer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4em;
+}
+.svg-shape{
+    overflow: visible;
+    position: absolute;
+}
+.shape-left{
+    left: -3em;
+}
+.shape-right {
+    right: -3em;
+}
+.shadow {
+    -webkit-filter: drop-shadow(0 8px 3px rgba( 31, 38, 135, 0.37 ));
+    filter: drop-shadow(0 8px 3px rgba( 31, 38, 135, 0.37 ));
+}
+.pink {
+    fill: pink;
+}
+.purple {
+    fill: #927ff0
+}
+.main-text{
+    flex: 3
+}
+.main-image{
+    flex: 4
+}
+
+#footer{
+    padding-top: 3em;
+    padding-bottom: 1.5em;
+    background-color: #6b15db;
+    color: white;
+    margin-top: 4em;
+}
+.footer-bottom{
+    font-size: 13px;
+    margin-bottom: 0.1em;
 }
 
 .network {
@@ -85,6 +222,16 @@ nav {
     width: 80%;
     max-width: 600px;
 }
+
+.navbar{
+    background-color: rgb(255, 255, 255, 0.6);
+}
+
+.contact{
+    list-style-type: none;
+}
+
+/* NETWORK STUFF */
 
 .network h2 {
     margin: 0;
